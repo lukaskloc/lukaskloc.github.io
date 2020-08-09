@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 
-  var apiRoot = 'http://powerful-lake-74696.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'http://powerful-lake-74696.herokuapp.com/v1/trello/';
+  var apiRoot = 'https://powerful-lake-74696.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://powerful-lake-74696.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
